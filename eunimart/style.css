@@ -1,0 +1,80 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.indexpage{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-container{
+    background-color: rgba(240, 248, 255, 0.366);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-user{
+    margin-top: 5vh;
+    width: 40vw;
+    padding: 5vh;
+    background-color: #f2f9fb77;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.one-user{
+    margin-top: 5vh;
+    width: 40vw;
+    background-color: rgba(183, 246, 242, 0.289);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    border-radius: 10px;
+}
+.userpage{
+    background-image: url(https://i.pinimg.com/originals/bc/ba/d8/bcbad862c8dc5b2ffa4de6ed6eebf73d.png);
+}
+.name-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    
+}
+.name-cont>p{
+    font-weight: 600;
+}
+
+.user-name{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+}
+.log-btn{
+    background-color: rgb(9, 31, 235);
+    color: antiquewhite;
+    padding: 10px;
+    
+}
+.userlistpage{
+    background-image: url(https://wallpaperaccess.com/full/1977336.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+}
+.user-details>p{
+    font-size: larger;
+    font-weight: 600;
+}
